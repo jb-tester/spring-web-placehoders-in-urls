@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 // the paths are shown incorrectly in case of property placeholder with prefix - https://youtrack.jetbrains.com/issue/IDEA-296582
+// false-positive errors - https://youtrack.jetbrains.com/issue/IDEA-296629
 
 // my.base.url = '/foo/bar'
 // some.url = '/buzz'
